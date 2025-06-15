@@ -90,7 +90,7 @@
                 todoItem.item.classList.toggle('list-group-item-success')
             })
             todoItem.deleteButton.addEventListener('click', function(){
-                if (confirm('Вы уверены')){
+                if (confirm('Вы уверены?')){
                     todoItem.item.remove()
                 }
             })
